@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../images/milky-way-5k-hd-5120x2880.jpg);
+    background-image: url(../images/4k-wallpaper-calm-waters-dark-1252869.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
 
 .wrapper{
     width: 500px;
-    margin: 48vh auto;
+    margin: 75vh auto;
     color: white;
 }
 
@@ -63,5 +63,7 @@ nav li:hover{
     .wrapper{
         width: 300px;
         overflow: hidden;
+        margin: 60vh auto;
+
     }
 }
