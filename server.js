@@ -10,6 +10,9 @@ mongoose.connect("mongodb://localhost/jackson", { useNewUrlParser: true })
   .then(()=> console.log("connected to mongo"))
   .catch((err) => console.log(err));
 
+const routes = require("./routes/api-routes")
+app.use(routes)
+
 app.listen(8000, ()=> {
   console.log("server live at http://localhost:8000");
 })
