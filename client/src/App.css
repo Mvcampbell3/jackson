@@ -14,3 +14,9 @@ ul, ol{
 a{
   text-decoration: none;
 }
+
+.container{
+  margin-top: 75px;
+  padding-top: 10px;
+  min-height: calc(100vh - 75px);
+}
